@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+/* Balaram Krishna Dammavalam 1002113672
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Nirmala Dinesh Gowda 1002028286
 
-## Available Scripts
+Omkar Ele 1002120514
 
-In the project directory, you can run:
+Rudviq Bhavsar 1002091441
 
-### `npm start`
+Saisanjay bandarupalli 1002091531 */
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Logging In with Specific Credentials
+To log in with specific roles, use the following credentials:
 
-### `npm test`
+# Steps for Logging into the Website
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To access our website and log in to specific role dashboards, please follow these simple steps:
 
-### `npm run build`
+1. **Access the Login Page**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   Click on the "EDUMETRICS" link located on the right-hand side of the website. This link will redirect you to the login page(https://rsb1441.uta.cloud/index.html).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Provide Credentials**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   To log in to specific role dashboards, you need to provide the following credentials:
 
-### `npm run eject`
+   - **Student Dashboard**:
+     - Username: student
+     - Password: 123
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - **Instructor Dashboard**:
+     - Username: instructor
+     - Password: 456
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - **Program Coordinator Dashboard**:
+     - Username: programcoordinator
+     - Password: 789
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   - **QA Officer Dashboard**:
+     - Username: qaofficer
+     - Password: 123
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   - **Admin Dashboard**:
+     - Username: admin
+     - Password: 456
 
-## Learn More
+Please note that each set of credentials corresponds to a specific role, allowing you to access the respective dashboard. Enjoy your experience on our website.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# For running the application in the local environment
 
-### Analyzing the Bundle Size
+# My React Web Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Welcome to the README file for our React web application. This document will guide you through the installation, usage, and deployment of the application.
 
-### Making a Progressive Web App
+## Node Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Make sure you have Node.js and npm (Node Package Manager) installed on your computer. You can download and install them from the official website: [Node.js Downloads](https://nodejs.org/download/).
 
-### Advanced Configuration
+## Starting the Node Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To start the development server and run the React application locally, use the following command:
 
-### Deployment
+```bash
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Deployment:
+
+Building the Application
+Run the following command to create a production build for the entire website:
+npm run build
+
+# Configuring the Server:
+
+Create an .htaccess file if you are deploying to a server that requires it.
+Upload the contents of the build folder to your hosting provider's cloud server.
+Place the .htaccess file at the root folder of your hosting.
+Accessing the Blog Page
+You can access our Blog page using the following URL:
+
+https://bxd3672.uta.cloud/wordpress_blog/
+
+From the Blog page, you can easily navigate to the home page of our website.
+
+Logging In with Specific Credentials
+To log in with specific roles, use the following credentials:
+
+# Steps for Logging into the Website
+
+To access our website and log in to specific role dashboards, please follow these simple steps:
+
+1. **Access the Login Page**:
+
+   Click on the "EDUMETRICS" link located on the right-hand side of the website. This link will redirect you to the login page.
+
+2. **Provide Credentials**:
+
+   To log in to specific role dashboards, you need to provide the following credentials:
+
+   - **Student Dashboard**:
+     - Username: student
+     - Password: 123
+
+   - **Instructor Dashboard**:
+     - Username: instructor
+     - Password: 456
+
+   - **Program Coordinator Dashboard**:
+     - Username: programcoordinator
+     - Password: 789
+
+   - **QA Officer Dashboard**:
+     - Username: qaofficer
+     - Password: 123
+
+   - **Admin Dashboard**:
+     - Username: admin
+     - Password: 456
+
+Please note that each set of credentials corresponds to a specific role, allowing you to access the respective dashboard. Enjoy your experience on our website.
